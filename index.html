@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./durian-framework.css" />
+  <link rel="icon" href="./durian-framework.png" type="image/icon type" />
+  <style>
+    .black-container>img {
+      animation-name: imgzoom;
+      animation-iteration-count: infinite;
+      animation-duration: 5s;
+    }
+
+    hr {
+      width: 80%;
+      height: 5px;
+      background-color: white;
+      border-radius: 5px;
+      animation-name: hr;
+      animation-duration: 4s;
+      border: none;
+      animation-iteration-count: infinite;
+    }
+
+    .black-container:hover {
+      -webkit-transform: rotate(5deg);
+      -moz-transform: rotate(5deg);
+      -o-transform: rotate(5deg);
+      -ms-transform: rotate(5deg);
+      transform: rotate(5deg);
+    }
+
+    @keyframes hr {
+      0% {
+        width: 80%;
+      }
+
+      50% {
+        width: 60%;
+        background-color: #171717;
+      }
+
+      100% {
+        width: 80%;
+      }
+    }
+
+    @keyframes imgzoom {
+      0% {
+        object-fit: cover;
+      }
+
+      25% {
+        object-position: 6px -50px;
+      }
+
+      50% {
+        object-position: -6px -50px;
+      }
+
+      75% {
+        object-position: 0px -20px;
+      }
+
+      100% {
+        object-fit: cover;
+      }
+    }
+  </style>
+  <title>Science-durian store</title>
+</head>
+
+<body>
+  <nav class="navbar-black">
+    <img src="./durian-framework-white.png" alt="" />
+    <ul>
+      <li><a href="#">Store</a></li>
+      <li><a href="#">Promotion</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Support</a></li>
+    </ul>
+  </nav>
+  <h1 style="
+        margin-top: 100px;
+        font-size: 6rem;
+        text-align: center;
+        color: black;
+      ">
+    Science-durian store
+  </h1>
+  <h2 style="text-align: center; font-size: 3rem; color: rgb(255, 132, 111)">
+    Recommend products
+  </h2>
+  <div class="white-paragraph">
+    <img src="https://cdn.shopify.com/s/files/1/0514/8554/0505/files/phone1-black.png?v=1657163231" alt="" />
+    <img src="https://cdn.shopify.com/s/files/1/0514/8554/0505/files/phone1-white.png?v=1657163061" alt="" />
+    <div class="textparagraph" style="margin-right: 20px; margin-top: 60px">
+      <h2>Nothing phone 1</h2>
+      <p>
+        To inspire creativity, and build the future together with their
+        community. By creating an ecosystem of iconic and connected tech
+        products, Nothing aims to bring artistry and passion back to the
+        industry.
+      </p>
+
+      <button class="black-button">View Details</button>
+      <button class="orange-button" style="margin-top: 5px">Promotion</button>
+    </div>
+  </div>
+  <div class="black-paragraph" style="padding-bottom: 0px">
+    <img style="border-radius: 0px"
+      src="https://www.iphone-droid.net/wp-content/uploads/2021/12/ipad_trade_in__ggq1dqvyb56y_large_2x.png" alt="" />
+    <div class="textparagraph-white">
+      <h2 style="font-size: 5rem">IPAD PRO</h2>
+      <p>
+        The ultimate iPad experience. Now with breakthrough M1 performance, a
+        breathtaking XDR display, and blazing‑fast 5G wireless. Buckle up.
+      </p>
+      <img src="https://www.it24hrs.com/wp-content/uploads/2021/04/ipad-pro-2021-m1-5g-appleevent-c05.png"
+        style="width: 35vw; margin-bottom: 20px" alt="" />
+      <button class="orange-button">Promotion</button>
+      <button class="black-button">View Details</button>
+    </div>
+  </div>
+
+  <h1 style="
+        text-align: center;
+        font-size: 3rem;
+        color: rgb(255, 132, 111);
+        margin-top: 80px;
+      ">
+    Other products
+  </h1>
+  <h2 style="text-align: center; margin-top: 20px">Fruits</h2>
+  <div class="sort-item-landscape-4">
+    <div class="white-container">
+      <img src="https://i0.wp.com/jirawat.online/wp-content/uploads/2022/02/pngwing.com_.png?fit=600%2C600&ssl=1"
+        alt="" />
+      <h2>Durian</h2>
+      <button>Buy</button>
+      <button class="black-button">View Details</button>
+    </div>
+    <div class="white-container">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Banana.png/800px-Banana.png" alt="" />
+      <h2>Banana</h2>
+      <button>Buy</button>
+      <button class="black-button">View Details</button>
+    </div>
+    <div class="white-container">
+      <img src="https://journal-boutique.s3-ap-southeast-1.amazonaws.com/0aa55efb0672dce198ef8a9b7c52ab83" alt="" />
+      <h2>Mango</h2>
+      <button>Buy</button>
+      <button class="black-button">View Details</button>
+    </div>
+    <div class="white-container">
+      <img src="https://5.imimg.com/data5/EE/ER/MY-27568370/fresh-orange-500x500.png" alt="" />
+      <h2>Orange</h2>
+      <button>Buy</button>
+      <button class="black-button">View Details</button>
+    </div>
+  </div>
+
+  <h2 style="text-align: center">Books</h2>
+  <div class="sort-item-landscape-4">
+    <div class="white-container">
+      <img
+        src="https://i0.wp.com/laurasbooksandblogs.com/wp-content/uploads/2020/11/twine.jpg?resize=269%2C404&is-pending-load=1#038;ssl=1"
+        alt="" />
+      <h2>Twine</h2>
+      <button>Buy</button>
+      <button class="black-button">View Details</button>
+    </div>
+    <div class="white-container">
+      <img
+        src="https://i0.wp.com/laurasbooksandblogs.com/wp-content/uploads/2020/05/Scotland-With-A-Stranger.jpg?resize=211%2C337&is-pending-load=1#038;ssl=1"
+        alt="" />
+      <h2>Scotland with a Stranger</h2>
+      <button>Buy</button>
+      <button class="black-button">View Details</button>
+    </div>
+    <div class="white-container">
+      <img
+        src="https://i0.wp.com/laurasbooksandblogs.com/wp-content/uploads/2020/11/broken-shade.jpg?resize=279%2C415&is-pending-load=1#038;ssl=1"
+        alt="" />
+      <h2>The Broken Shade</h2>
+      <button>Buy</button>
+      <button class="black-button">View Details</button>
+    </div>
+    <div class="white-container">
+      <img
+        src="https://i0.wp.com/laurasbooksandblogs.com/wp-content/uploads/2020/04/What-Death-Taught-Terrence.jpeg?resize=247%2C371&is-pending-load=1#038;ssl=1"
+        alt="" />
+      <h2>What Death Taught Terrence</h2>
+      <button>Buy</button>
+      <button class="black-button">View Details</button>
+    </div>
+  </div>
+  <center style="margin-bottom: 20px">
+    <button class="orange-button" style="width: 30vw; box-shadow: 0px 3px 10px rgb(99, 99, 99)">
+      See more
+    </button>
+  </center>
+
+  <div class="background-black">
+    <h1 style="text-align: center">Science durian's Member</h1>
+    <div class="sort-item-landscape-3">
+      <div class="black-container">
+        <img style="object-position: 0px -90px"
+          src="https://scontent.xx.fbcdn.net/v/t1.15752-9/301997117_611837907318783_6535581835651171756_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeE9A1pogobjlSw6Gf8JIuq5qOV59Y3W3Pmo5Xn1jdbc-TIlbE12VQZYOWklTzasKpJ_FsyVYEkQvu3ihJQqJNEu&_nc_ohc=oYh453s4tr4AX8LIDIa&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AVKh7HD5Bsr3TKI6A-TPmzqIA-vnAULNlR2H4282hPZfMQ&oe=633A58FD"
+          alt="" />
+        <h2>Paremai</h2>
+        <h1>Role: Presenter,Document</h1>
+        <hr />
+      </div>
+      <div class="black-container">
+        <img
+          src="https://scontent.xx.fbcdn.net/v/t1.15752-9/302333134_792660502186766_2181769003294753402_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeG3EsgZikpft6RmEEQsDq-NwePrfEMJwefB4-t8QwnB540v-0g3fnI7Rt3rMjjqdUYUIroCtVffOd-7gjEX8SdT&_nc_ohc=DbFyKrCS75kAX9QfeXf&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AVKZBTJTvRUkm36WMgrBamfHAyK8TQv4Yx90zJqHHQrTfA&oe=633AB57A"
+          alt="" />
+        <h2>Fasai</h2>
+        <h1>Role: Presenter,Document</h1>
+        <hr />
+      </div>
+      <div class="black-container">
+        <img
+          src="https://scontent.xx.fbcdn.net/v/t1.15752-9/292001314_591627949202598_8599002792126613806_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeE7dL-WXWhBNhK9HzMZuj9b_92xF_hULHr_3bEX-FQsesDgGHEvjhjQHo1EgCzKWh-ci2eA7VWM7DfKCkmgGvuB&_nc_ohc=ahmD08nqEJgAX-KSyHn&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AVJFNnbYMDuWDpeMH0sUB1M1mBxrB0kWeVNOgSKN-ynzuA&oe=63380F0D"
+          alt="" />
+        <h2>Jinny</h2>
+        <h1>Role: Presenter,Document</h1>
+        <hr />
+      </div>
+    </div>
+    <div class="sort-item-landscape-3" style="justify-content: space-evenly">
+      <div class="black-container">
+        <img
+          src="https://scontent.cdninstagram.com/v/t1.15752-9/299442743_458861802583987_8643862509415417957_n.jpg?stp=dst-jpg_p350x350&_nc_cat=102&ccb=1-7&_nc_sid=5a057b&_nc_ohc=fimZqDCzCY4AX_qql4Y&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=03_AVI_yBs4Abhgxz1BTOf62nSUP2LlOx2aFKRx2wgYOtVuMA&oe=633B1E3E"
+          alt="" />
+        <h2>Bright</h2>
+        <h1>Role: Presenter</h1>
+        <hr />
+      </div>
+      <div class="black-container">
+        <img
+          src="https://scontent.xx.fbcdn.net/v/t1.15752-9/302766891_1073537716862186_3481544602799828882_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeE3OrTQwPp3ziUeY2Kx3YaTjj6E_RiyTn6OPoT9GLJOftoBX7GrC3DqbXortsQNXDvUiuxOtAeYlWUd3OJISEB2&_nc_ohc=-OQnnrPHUwEAX9sMrCF&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AVLT-gB-LQAH6MjTaKxtE2SReFbnE6j0A--8hoeiw-ysjQ&oe=63382E1C"
+          alt="" />
+        <h2>Kawpuak</h2>
+        <h1>Role: Infographic designer</h1>
+        <hr />
+      </div>
+      <div class="black-container">
+        <img
+          src="https://scontent.xx.fbcdn.net/v/t1.15752-9/302096846_3232982943626542_7464568689054632060_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeEDYv6ab5SHCQ2uKrNfqKhnDtdY-ORPfh8O11j45E9-H2FliFs_V0xvx1OTKvabuW2NEnYWlwb95ErR9KElON4E&_nc_ohc=pL5hWFiQtJoAX8FlIrf&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AVLOMmoh3bTrPzdMURUDRCB32F6s8eNre4cttk_yU3gNMg&oe=63397499"
+          alt="" />
+        <h2>Fifa</h2>
+        <h1>Role: Programmer</h1>
+        <hr />
+      </div>
+    </div>
+  </div>
+
+  <footer class="black-div">
+    Copyright © 2022 The Durian Framework Authors. This website is created by
+    science-durian team
+  </footer>
+</body>
+
+</html>

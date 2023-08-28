@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "bootstrap-5.2.0-dist",
+			"path": "..\\..\\Downloads\\bootstrap-5.2.0-dist\\bootstrap-5.2.0-dist"
+		},
+		{
+			"name": "Durian framework (Front-end framework)",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Durian framework (Front-end framework)"
+	}
+}
